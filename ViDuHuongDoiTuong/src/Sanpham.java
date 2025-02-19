@@ -9,12 +9,19 @@ public class Sanpham {
 	public Sanpham() { // cung ten, khong tham so
 		//khoi tao gia tri ban dau cho cac thuoc tinh
 	}
-	public Sanpham(int _maSP, String _tenSP, String _loaiSP, String _anhSP) { // cung ten, co tham so
+//	public Sanpham(int _maSP, String _tenSP, String _loaiSP, String _anhSP) { // cung ten, co tham so
+//		//khoi tao gia tri ban dau cho cac thuoc tinh
+//		maSP = _maSP;
+//		tenSP= _tenSP;
+//		loaiSP=_loaiSP;
+//		anhSP=_anhSP;
+	}
+	public Sanpham(int maSP, String tenSP, String loaiSP, String anhSP) { // cung ten, co tham so
 		//khoi tao gia tri ban dau cho cac thuoc tinh
-		maSP = _maSP;
-		tenSP= _tenSP;
-		loaiSP=_loaiSP;
-		anhSP=_anhSP;
+		this.maSP = maSP;
+		this.tenSP= tenSP;
+		this.loaiSP=loaiSP;
+		this.anhSP=anhSP;
 	}
 	// cac getter, setter
 
