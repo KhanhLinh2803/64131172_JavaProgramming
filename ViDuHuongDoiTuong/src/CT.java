@@ -1,19 +1,26 @@
-
+import java.util.ArrayList;
 public class CT {
 
-	public static void main(String[] args) {
-		//tao ra 2 san pham (hardcode: cho san)
-		Sanpham sp1 = new Sanpham();
-		Sanpham sp2 = new Sanpham(2, "banh","doan","avt.jpg");
-		sp1.setMaSP(1);
-		sp1.setTenSP("bia");
-		sp1.setLoaiSP("douong");
-		sp1.setAnhSP("avt1.jpg");
-		//in ra ma hinh thong tin 2 san pham tren
-		String thongtinSP1 = sp1.toString();
-		String thongtinSP2 = "Ma SP2 la " + sp2.getMaSP(); 
-		       thongtinSP2 +="Ten SP2 la" + sp2.getTenSP();
-		System.out.println(thongtinSP1);
-		System.out.println(thongtinSP2);
-	}
+	public static void main(String[] args) {		
+		        //khai bao danh sach san pham
+				ArrayList<Sanpham> dsSanPham;
+				//xin moi
+				dsSanPham = new ArrayList<Sanpham>();
+				//nhap 3 san pham
+				Sanpham sp1 = new Sanpham(0, "Ca", "Dongvat", null);
+				Sanpham sp2 = new Sanpham(1, "Bo", "Dongvat", null);
+				Sanpham sp3 = new Sanpham(2, "Coca", "Douong", null);
+				//them vao ArryList
+				dsSanPham.add(sp1);
+				dsSanPham.add(sp2);
+				dsSanPham.add(sp3);
+				for(Sanpham x:dsSanPham)
+					System.out.println(x.toString());
+				//cach khac de xuat ds
+				//for(int i;i<dsSanPham.size(); i++) {
+					//SanPham sp = dsSanPham.get(i);
+					//System.out.println(sp.toString());
+				//}
+				
+		}
 }
