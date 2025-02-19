@@ -15,7 +15,7 @@ public class Sanpham {
 //		tenSP= _tenSP;
 //		loaiSP=_loaiSP;
 //		anhSP=_anhSP;
-	}
+//	}
 	public Sanpham(int maSP, String tenSP, String loaiSP, String anhSP) { // cung ten, co tham so
 		//khoi tao gia tri ban dau cho cac thuoc tinh
 		this.maSP = maSP;
@@ -24,5 +24,11 @@ public class Sanpham {
 		this.anhSP=anhSP;
 	}
 	// cac getter, setter
+	public int getmaSP(){
+		return maSP;
+	}
+	public void setmaSP(int maSP) {
+		this.maSP = maSP;
+	}
 
 }
