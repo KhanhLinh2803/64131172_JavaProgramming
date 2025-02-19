@@ -39,6 +39,10 @@ public class Sanpham {
 	public void setAnhSP(String anhSP) {
 		this.anhSP = anhSP;
 	}
+	@Override
+	public String toString() {
+		return "Sanpham [MaxSP=" + maSP + ", TeenSP=" + tenSP + ", LoaijSP=" + loaiSP + ", AnhrSP=" + anhSP + "]";
+	}
 	
 	
 }
