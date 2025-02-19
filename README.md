@@ -1,3 +1,3 @@
 # 64131172_JavaProgramming
 Lưu các bài thực hành!
-tôi đã làm đến đây rồi đó ạ!  
+4 bài Lap trên em làm 1 lần hoàn thành 1 mới push lên, sau xem kĩ video các bài vidu em đã push từng đợt lên rồi ạ!
