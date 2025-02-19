@@ -5,30 +5,40 @@ public class Sanpham {
 	String tenSP;
 	String loaiSP;
 	String anhSP; // ten file anh
-	// ham tao
-	public Sanpham() { // cung ten, khong tham so
-		//khoi tao gia tri ban dau cho cac thuoc tinh
-	}
-//	public Sanpham(int _maSP, String _tenSP, String _loaiSP, String _anhSP) { // cung ten, co tham so
-//		//khoi tao gia tri ban dau cho cac thuoc tinh
-//		maSP = _maSP;
-//		tenSP= _tenSP;
-//		loaiSP=_loaiSP;
-//		anhSP=_anhSP;
-//	}
-	public Sanpham(int maSP, String tenSP, String loaiSP, String anhSP) { // cung ten, co tham so
-		//khoi tao gia tri ban dau cho cac thuoc tinh
+	public Sanpham(int maSP, String tenSP, String loaiSP, String anhSP) {
+		super();
 		this.maSP = maSP;
-		this.tenSP= tenSP;
-		this.loaiSP=loaiSP;
-		this.anhSP=anhSP;
+		this.tenSP = tenSP;
+		this.loaiSP = loaiSP;
+		this.anhSP = anhSP;
 	}
-	// cac getter, setter
-	public int getmaSP(){
+	public Sanpham() {
+		super();
+	}
+	public int getMaSP() {
 		return maSP;
 	}
-	public void setmaSP(int maSP) {
+	public void setMaSP(int maSP) {
 		this.maSP = maSP;
 	}
-
+	public String getTenSP() {
+		return tenSP;
+	}
+	public void setTenSP(String tenSP) {
+		this.tenSP = tenSP;
+	}
+	public String getLoaiSP() {
+		return loaiSP;
+	}
+	public void setLoaiSP(String loaiSP) {
+		this.loaiSP = loaiSP;
+	}
+	public String getAnhSP() {
+		return anhSP;
+	}
+	public void setAnhSP(String anhSP) {
+		this.anhSP = anhSP;
+	}
+	
+	
 }
